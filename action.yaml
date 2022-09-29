@@ -26,6 +26,14 @@ inputs:
     required: false
     default: ''
     description: Body of the issue
+  milestone: # body as INPUT_MILESTONE
+    required: false
+    default: ''
+    description: Milestone id
+  project: # body as INPUT_PROJECT
+    required: false
+    default: ''
+    description: Project id
 
 # definition how we want our action
 runs:
